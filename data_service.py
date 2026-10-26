@@ -4,9 +4,6 @@ import pandas as pd
 import requests
 import random
 
-book_list = ["the-hunger-games","the-martian", "dune", "project-hail-mary", "enders-game", "cress", "the-stand"]
-
-
 @st.cache_data(ttl=3600)
 def fetch_data(random_book):
 
